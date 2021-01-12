@@ -3,6 +3,11 @@ class Dustbin{
         var options = {
             isStatic : true
         }
+        this.x=x;
+		this.y=y;
+		this.dustbinWidth=200;
+		this.dustbinHeight=213;
+		this.wallThickness=20;
         this.width = width;
         this.height = height;
         this.image = loadImage("dustbingreen.png");
